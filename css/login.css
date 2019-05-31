@@ -1,0 +1,45 @@
+#wrapper { padding-top: 100px; }
+#main {
+    padding-top: 0;
+}
+#container{
+    padding: 0;
+    width: 40%;
+    min-width: 280px;
+    margin: 0 auto;
+    background: #fff;
+}
+.loginBtn { 
+    background: url(images/col-btn.png) repeat 0 0; 
+    border: 1px solid #afd1f6; 
+    height: 41px; 
+    line-height: 41px; 
+    width: 150px;
+    text-align: center; 
+    padding: 0 15px; 
+    color: #324957;
+    text-shadow: rgba(255,255,255,0.9) 1px 1px 1px;
+    font-size: 16px;
+}
+.loginBtn:hover { 
+    background-position: 0 bottom; 
+    cursor: pointer;}
+
+.loginForm{
+    padding-bottom: 23px;
+    text-align: center;}
+
+.loginForm span{
+    padding-right: 10px;
+    font-size: 21px;
+    color: black;}
+
+.loginForm p input{
+    height : 21px;
+    color: #8c929b;
+    font-size: 15px;}
+
+.loginForm div span{
+    padding-left: 10px;
+    font-size: 16px;
+    color: black;}

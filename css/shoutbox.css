@@ -1,0 +1,81 @@
+#shoutbox a { color: #eee; text-decoration: none;}
+#shoutbox a:hover { text-decoration: underline; }
+
+#shoutbox{
+    width:90%;
+    margin:20px auto;    
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    color:#293237;
+}
+
+.block_main {
+    background-color: #8ABDF1;
+    padding: 30px; 
+}
+
+.block_main p {
+    margin: 20px 0 20px 0;
+}
+
+#shoutbox h2 {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    color: #19407A;
+   
+}
+
+#submit{
+    background: url(images/col-btn.png) repeat 0 0; 
+    border: 1px solid #afd1f6; 
+    height: auto; 
+    width: auto;
+    text-align: center; 
+    padding: 5px 15px; 
+    color: #324957;
+    text-shadow: rgba(255,255,255,0.9) 1px 1px 1px;
+    font-size: 16px;
+}
+#submit:hover { 
+    background-position: 0 bottom; 
+    cursor: pointer;
+}
+
+#shoutbox ul { list-style-type: none;}
+#shoutbox ul li { 
+    padding: 10px 0 10px 0; 
+    border-bottom: 1px solid #eee; 
+    font-size: 15px; 
+}
+
+#shoutbox input { margin: 10px 5px 10px 5px; }
+.name { 
+    font-weight: bold; 
+    width: 100px; 
+    display: inline-block; 
+    color: #19407A;
+    padding-left: 10px;
+}
+.date { 
+    color: #ffffff; 
+    font-family: Arial; 
+    font-size: 9px; 
+    margin-right: 10px; 
+}
+.message { 
+    margin-left: 10px; 
+    width: 300px; 
+    min-height: 27px;
+    
+}
+.adminMsg{
+    font-weight: bold;
+    color:#fff;
+}
+#name{color: #19407A; font-style: italic;}
+#message { 
+    width: 90%; 
+    min-height: 100px;
+}
